@@ -1,0 +1,29 @@
+# Сборка
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MLIR/LLVM (не загружаем сам LLVM!)
+llvm-project/
+!llvm-project/README.md  # если хочешь сохранить заметки
+
+# Временные файлы
+*.dot
+*.log
+*.tmp
+
+# Системные
+.DS_Store
+Thumbs.db
